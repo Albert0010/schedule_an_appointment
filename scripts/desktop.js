@@ -54,7 +54,6 @@ const modifyLiElements = (event,liElements,layer) => {
 
 const handleCategoryClick = (event) => {
     event.stopPropagation();
-    // debugger
 
     const isAlreadyClicked = event.target?.parentNode?.classList.contains('clicked-sub-category-arrow');
 
@@ -78,7 +77,6 @@ const handleCategoryClick = (event) => {
 
 
     const parsedData = getDataSub(event.target);
-    console.log({parsedData})
     let newDiv = createElement(DIV);
     const mainCategoryElements = selectByClass(MAIN_CATEGORY_BLOCK);
 

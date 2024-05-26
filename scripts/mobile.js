@@ -78,4 +78,4 @@ const addClickEvent = (layer,isMount) => {
     }
 }
 
-addClickEvent(arrowDownMobile,arrowUpMobile,0, true);
+addClickEvent(0, true);
