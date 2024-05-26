@@ -1,0 +1,60 @@
+.header{
+    padding-top: 21px;
+    padding-bottom: 21px;
+    background-color: #010114;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header > div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav-desktop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    gap: 20px;
+}
+
+.nav-desktop > div{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header-text{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    width: max-content;
+}
+
+
+.treatments{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 576px) {
+
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+    nav{
+        gap: 82px;
+    }
+}
+@media (min-width: 1200px) {
+
+}

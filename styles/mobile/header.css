@@ -1,0 +1,24 @@
+.container-mobile{
+    padding-inline: 24px;
+}
+.book-now{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid white;
+    padding: 16px;
+    color:white;
+}
+.nav-mobile{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.category-text-mobile{
+    width: 75%;
+    line-height: 54px;
+}
+

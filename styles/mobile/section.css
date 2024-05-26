@@ -1,0 +1,50 @@
+.main-category-mobile-block{
+    width: 100%;
+}
+.category-btn-mobile{
+    font-size: 20px;
+    background-color: #F2F2F3;
+    color: #010114;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.li-mobile{
+    display: flex;
+    justify-content: space-between;
+    padding:12px 24px;
+    cursor: pointer;
+}
+
+.ul-mobile{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.active-mobile{
+    background-color: #00070a;
+    color: white;
+}
+.active-mobile-arrow{
+    display: none;
+}
+.arrow-up-mobile{
+    display: none;
+}
+.arrow-up-mobile-active{
+    display: block;
+}
+
+.sub-category-mobile{
+    border: 1px solid #010114;
+    background-color: white;
+    padding: 12px 24px;
+}
+
+.inner-sub-category-mobile{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
