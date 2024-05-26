@@ -1,6 +1,3 @@
-const arrowDownMobile = selectByClass('arrow-down-mobile');
-const arrowUpMobile = selectByClass('arrow-up-mobile');
-
 let clickedArray = [];
 const addClickEvent = (layer,isMount) => {
     const liElementsMobile = document.querySelectorAll('.li-mobile');
@@ -74,7 +71,6 @@ const addClickEvent = (layer,isMount) => {
                 );
             });
         }
-
     }
 }
 
